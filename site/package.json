@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://sleepynightowl99.github.io/",
   "dependencies": {
     "hello-wasm": "^0.1.0"
   },
